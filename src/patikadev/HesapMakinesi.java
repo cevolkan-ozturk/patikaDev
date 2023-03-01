@@ -21,10 +21,12 @@ public class HesapMakinesi {
         int n1, n2, select;
 
         Scanner oku = new Scanner(System.in);
-        System.out.print("İlk sayıyı girniz: ");
+        System.out.println("Hesap Makineme Hosgeldiniz");
+
+        System.out.print("İlk sayıyı giriniz: ");
         n1 = oku.nextInt();
 
-        System.out.print("İkinci sayıyı girniz: ");
+        System.out.print("İkinci sayıyı giriniz: ");
         n2 = oku.nextInt();
 
         System.out.println("1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme");
